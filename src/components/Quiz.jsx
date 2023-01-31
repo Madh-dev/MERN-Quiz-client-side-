@@ -1,7 +1,11 @@
 import React from 'react'
 import Questions from './Questions'
+import { useSelector } from 'react-redux'
+
+
 
 const Quiz = () => {
+  const state = useSelector
    const onNext = ()=>{
    }
    const onPrev = ()=>{
