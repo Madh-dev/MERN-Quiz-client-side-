@@ -6,7 +6,7 @@ const Questions = () => {
     const question = data[0]
 
     useEffect(() => {
-        console.log(data)
+        // console.log(data)
     })
 
 
@@ -33,7 +33,7 @@ const Questions = () => {
                 }
             </ul>
         </div>
-    )
+    ) 
 }
 
 export default Questions

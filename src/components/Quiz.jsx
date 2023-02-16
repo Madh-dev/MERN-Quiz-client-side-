@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Questions from './Questions'
+
+//========= redux store import========
 import { useSelector } from 'react-redux'
 
 
 
+
 const Quiz = () => {
-  const state = useSelector
+  const state = useSelector(state =>state);
+  useEffect( () => {
+    console.log(state)
+  })
    const onNext = ()=>{
    }
    const onPrev = ()=>{
